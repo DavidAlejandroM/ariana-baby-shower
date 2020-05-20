@@ -7,4 +7,4 @@ COPY . .
 RUN npm run build
 ### STAGE 2: Run ###
 FROM nginx:1.18.0-alpine
-COPY --from=build /usr/src/app/dist/ariana-baby-shower /usr/share/nginx/html
+COPY --from=build /usr/src/app/dist/ /usr/share/nginx/html
