@@ -1,0 +1,5 @@
+.icon {
+  position: absolute;
+  z-index: -1;
+  width: 90px;
+}
