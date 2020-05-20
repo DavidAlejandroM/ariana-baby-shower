@@ -1,4 +1,4 @@
-FROM node:13.3.0 AS compile-image
+FROM node:13.14.0 AS compile-image
 
 WORKDIR /usr/src/app
 COPY package.json ./
