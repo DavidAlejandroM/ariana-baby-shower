@@ -11,8 +11,8 @@ import { registerLocaleData } from '@angular/common';
 import es from '@angular/common/locales/es';
 import { InitialComponent } from './pages/initial/initial.component';
 import { AppRoutingModule } from './app-routing.module';
-import { AppNgZorroAntdModule } from './ng-zorro-module';
-import { NzIconTestModule } from './ng-zorro-icon-module';
+//import { AppNgZorroAntdModule } from './ng-zorro-module';
+//import { NzIconTestModule } from './ng-zorro-icon-module';
 import { AngularSvgIconModule } from 'angular-svg-icon';
 import { BabyIconsComponent } from './components/baby-icons/baby-icons.component';
 
@@ -30,8 +30,8 @@ registerLocaleData(es);
     HttpClientModule,
     BrowserAnimationsModule,
     AppRoutingModule,
-    NzIconTestModule,
-    AppNgZorroAntdModule,
+  //  NzIconTestModule,
+    //AppNgZorroAntdModule,
     AngularSvgIconModule.forRoot()
   ],
   providers: [{ provide: NZ_I18N, useValue: es_ES }],
