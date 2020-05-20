@@ -7,4 +7,4 @@ COPY . .
 RUN npm run build
 ### STAGE 2: Run ###
 FROM nginx:1.18.0-alpine
-COPY --from=build /usr/src/app/build/ /usr/share/nginx/html
+COPY /usr/src/app/build/ /usr/share/nginx/html
