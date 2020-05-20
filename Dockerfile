@@ -9,5 +9,5 @@ RUN ls -l
 RUN ls -l /usr/src/app/dist
 ### STAGE 2: Run ###
 FROM nginx:1.18.0-alpine
-COPY --from=node-image /usr/src/app/dist/ /usr/share/nginx/html
+COPY --from=node-image /usr/src/app/dist/ariana-baby-shower /usr/share/nginx/html
 RUN ls -l /usr/share/nginx/html
