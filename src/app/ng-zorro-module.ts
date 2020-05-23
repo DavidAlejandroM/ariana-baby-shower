@@ -68,7 +68,7 @@ import { NzResizableModule } from 'ng-zorro-antd/resizable';
 
 @NgModule({
   exports: [
-    NzAffixModule,
+/*     NzAffixModule,
     NzAlertModule,
     NzAnchorModule,
     NzAutocompleteModule,
@@ -132,7 +132,7 @@ import { NzResizableModule } from 'ng-zorro-antd/resizable';
     NzTypographyModule,
     NzUploadModule,
     NzWaveModule,
-    NzResizableModule
+    NzResizableModule */
   ]
 })
 export class AppNgZorroAntdModule {

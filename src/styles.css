@@ -1,0 +1,13 @@
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  background: url("./assets/background-baby.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@font-face {
+  font-family: angelica;
+  src: url("./assets/font/angelina.TTF");
+}
