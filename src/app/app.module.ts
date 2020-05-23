@@ -12,6 +12,7 @@ import { InitialComponent } from './pages/initial/initial.component';
 import { AppRoutingModule } from './app-routing.module';
 import { AngularSvgIconModule } from 'angular-svg-icon';
 import { BabyIconsComponent } from './components/baby-icons/baby-icons.component';
+import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 
 registerLocaleData(es);
 
@@ -19,7 +20,8 @@ registerLocaleData(es);
   declarations: [
     AppComponent,
     InitialComponent,
-    BabyIconsComponent
+    BabyIconsComponent,
+    NavBarComponent
   ],
   imports: [
     BrowserModule,
